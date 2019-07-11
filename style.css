@@ -1,0 +1,61 @@
+body {
+  background-color: PowderBlue;
+}
+h1 {
+  color: black;
+  font-family: DFKai-sb;
+}
+h2 {
+  color: red;
+  font-family: DFKai-sb;
+}
+
+h3 {
+  color: green;
+  font-family: DFKai-sb;
+}
+
+p {
+  color: black;
+  font-family: DFKai-sb;
+}
+
+pre {
+  color: black;
+  font-family: DFKai-sb;
+}
+
+ol {
+  color: black;
+  font-family: DFKai-sb;
+}
+
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+
+table#t02 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t02 th {
+  background-color: black;
+  color: white;
+}
+
+table, th, td {
+  border: 1px solid black;
+  /*border-collapse: collapse;*/
+  border-spacing: 15px;
+}
+
+#p01 {
+	color: blue;
+	}
+	
+p.re {
+	color: red;
+	}

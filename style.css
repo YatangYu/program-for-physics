@@ -1,61 +1,47 @@
+html{
+	cursor: url(redPointer.cur), auto !important;
+}
 body {
   background-color: PowderBlue;
+  font-size: 18px;
+  font-family: DFKai-sb;
 }
 h1 {
+  cursor: url(redText.cur), auto;
   color: black;
-  font-family: DFKai-sb;
 }
 h2 {
-  color: red;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: Tomato;
 }
 
 h3 {
-  color: green;
-  font-family: DFKai-sb;
+  cursor: url(redText.cur), auto;
+  color: DarkGreen;
 }
 
 p {
+  cursor: url(redText.cur), auto;
   color: black;
-  font-family: DFKai-sb;
 }
 
 pre {
+  cursor: url(redText.cur), auto;
   color: black;
   font-family: DFKai-sb;
 }
 
 ol {
+  cursor: url(redText.cur), auto;
   color: black;
-  font-family: DFKai-sb;
 }
-
-table#t01 {
-  width: 100%;    
-  background-color: #f1f1c1;
-}
-
-table#t02 tr:nth-child(even) {
-  background-color: #eee;
-}
-table#t02 tr:nth-child(odd) {
- background-color: #fff;
-}
-table#t02 th {
-  background-color: black;
-  color: white;
-}
-
 table, th, td {
-  border: 1px solid black;
-  /*border-collapse: collapse;*/
+  cursor: url(redText.cur), auto;
+  border-collapse: collapse;
   border-spacing: 15px;
+  color: red;
+  font-size: 20px;
 }
-
-#p01 {
-	color: blue;
-	}
-	
-p.re {
-	color: red;
-	}
+table{
+  width: 60%;
+}

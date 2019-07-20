@@ -1,6 +1,7 @@
 html{
 	cursor: url(Pointer.cur), auto !important;
 }
+
 body {
   background-color: PowderBlue;
   font-size: 18px;
@@ -23,6 +24,7 @@ h3 {
 p {
   cursor: url(Text.cur), auto;
   color: black;
+  font-family: DFKai-sb;
 }
 
 pre {
